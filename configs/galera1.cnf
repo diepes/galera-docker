@@ -1,0 +1,6 @@
+
+[mysqld]
+wsrep_cluster_address = "gcomm://172.17.0.2,172.17.0.3,172.17.0.4"
+wsrep_cluster_name    = "galera-cluster"
+wsrep_node_name       = "node1"
+#wsrep_node_address    = "172.17.0.101"
